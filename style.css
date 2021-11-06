@@ -1,0 +1,73 @@
+
+body {
+    background-color: grey;
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    /*
+    display: grid;
+    grid-template-columns: auto auto auto;
+    */
+    flex-direction: column;
+
+    
+    margin: auto;
+    justify-content: center;
+
+
+    height: 500px;
+    width: 500px;
+
+
+}
+
+.container_divs {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.divs {
+    background-color: black;
+    margin: 0.5px;
+    flex: 1;
+
+
+}
+
+
+.divs:hover {
+    background-color: white;
+}
+
+
+.hover {
+    background-color: green;
+}
+
+button {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    /*
+    width: 408px;
+    height: 40px;
+    */
+    font-size: 26px;
+
+    margin: 0px auto 10px;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.buttondiv {
+    display: flex;
+    
+}
